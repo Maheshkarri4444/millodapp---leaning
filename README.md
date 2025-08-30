@@ -1,31 +1,18 @@
-# Real Estate NFT DApp
+# Real Estate NFT DApp just learning
 
-## Technology Stack & Tools
-
-- Solidity (Writing Smart Contracts & Tests)
-- Javascript (React & Testing)
-- [Hardhat](https://hardhat.org/) (Development Framework)
-- [Ethers.js](https://docs.ethers.io/v5/) (Blockchain Interaction)
-- [React.js](https://reactjs.org/) (Frontend Framework)
-
-## Requirements For Initial Setup
-- Install [NodeJS](https://nodejs.org/en/)
-
-## Setting Up
-### 1. Clone/Download the Repository
-
-### 2. Install Dependencies:
-`$ npm install`
-
-### 3. Run tests
-`$ npx hardhat test`
-
-### 4. Start Hardhat node
-`$ npx hardhat node`
-
-### 5. Run deployment script
-In a separate terminal execute:
-`$ npx hardhat run ./scripts/deploy.js --network localhost`
-
-### 7. Start frontend
-`$ npm run start`
+- npm install
+- npx hardhat test
+- npx hardhat node
+- npx hardhat run ./scripts/deploy.js --network localhost
+- Copy Real Estate and Escrow contract addresses into src/config.js
+- Open MetaMask and add Hardhat network
+- Add the following accounts to MetaMask:
+  - Buyer
+  - Seller
+  - Inspector
+  - Lender
+- First click Buy with Buyer account
+- Login with Lender account and Lend
+- Login with Inspector account and approve inspection
+- Login with Seller account and approve sale
+- npm run start
